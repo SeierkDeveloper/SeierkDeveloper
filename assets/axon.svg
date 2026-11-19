@@ -43,7 +43,7 @@
 <g class="late"><rect x="1004.0" y="94.9" width="92" height="30" rx="8" fill="#0b0b0b"/><text x="1050.0" y="114.9" text-anchor="middle" style="font:700 15px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" fill="#ffffff">$374K</text></g>
 <rect class="tile" x="64.0" y="376" width="256.0" height="92" rx="12"/><text class="tv" x="86.0" y="420">780+</text><text class="tl" x="86.0" y="446">commits</text>
 <rect class="tile" x="336.0" y="376" width="256.0" height="92" rx="12"/><text class="tv" x="358.0" y="420">218K</text><text class="tl" x="358.0" y="446">lines of TypeScript</text>
-<rect class="tile" x="608.0" y="376" width="256.0" height="92" rx="12"/><text class="tv" x="630.0" y="420">3,400+</text><text class="tl" x="630.0" y="446">tests</text>
+<rect class="tile" x="608.0" y="376" width="256.0" height="92" rx="12"/><text class="tv" x="630.0" y="420">3,800+</text><text class="tl" x="630.0" y="446">tests</text>
 <rect class="tile" x="880.0" y="376" width="256.0" height="92" rx="12"/><text class="tv" x="902.0" y="420">1.7</text><text class="tl" x="902.0" y="446">SDK version on npm</text>
 <rect class="chip" x="64.0" y="490" width="153.8" height="32" rx="16"/><text class="ct" x="140.9" y="511" text-anchor="middle">Agent marketplace</text>
 <rect class="chip" x="234.3" y="490" width="124.2" height="32" rx="16"/><text class="ct" x="296.4" y="511" text-anchor="middle">x402 payments</text>
