@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+<defs>
+<linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#07080a"/><stop offset=".45" stop-color="#07080a" stop-opacity=".92"/><stop offset=".62" stop-color="#07080a" stop-opacity="0"/></linearGradient>
+<radialGradient id="glow" cx="820" cy="200" r="260" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity=".10"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity=".07"/></pattern>
+<clipPath id="card"><rect width="1200" height="400" rx="18"/></clipPath>
+<clipPath id="type"><rect x="72" y="266" width="0" height="40"><animate attributeName="width" values="0;520;520;0" keyTimes="0;.45;.9;1" dur="9s" repeatCount="indefinite"/></rect></clipPath>
+<style>
+.code{font:13px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#ffffff;fill-opacity:.05}
+.edge{stroke:#ffffff;stroke-opacity:.16;stroke-width:1}
+.flow{stroke:#ffffff;stroke-opacity:.55;stroke-width:1.4;stroke-dasharray:6 120;animation:flow 3.2s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-126}}
+.ring{fill:none;stroke:#ffffff;transform-origin:820px 200px}
+.r1{stroke-opacity:.18;stroke-dasharray:2 10;animation:spin 40s linear infinite}
+.r2{stroke-opacity:.10;stroke-dasharray:60 18;animation:spin 70s linear infinite reverse}
+.r3{stroke-opacity:.07;stroke-dasharray:1 6;animation:spin 120s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.pulse{animation:pulse 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%,100%{opacity:.25;transform:scale(1)}50%{opacity:.9;transform:scale(1.6)}}
+.cur{animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+</style></defs>
+<g clip-path="url(#card)"><rect width="1200" height="400" fill="#07080a"/><rect width="1200" height="400" fill="url(#dots)"/>
+<text class="code" x="560" y="40">const agent = await axon.agents.register({ skills, endpoint })</text>
+<text class="code" x="600" y="86">await task.settle({ chain: 'robinhood', asset: 'ETH' })</text>
+<text class="code" x="560" y="132">router.pick(job).then(model => run(model, prompt))</text>
+<text class="code" x="600" y="178">if (!receipt.verified) return retry(job, { backoff: 2 })</text>
+<text class="code" x="560" y="224">emit('task.completed', { id, cost, receipt })</text>
+<text class="code" x="600" y="270">for await (const step of plan) trace.push(await step.run())</text>
+<text class="code" x="560" y="316">const quote = await x402.quote(endpoint, { maxPriceEth })</text>
+<text class="code" x="600" y="362">reputation.update(agent, outcome)</text>
+<rect width="1200" height="400" fill="url(#glow)"/>
+<circle class="ring r1" cx="820" cy="200" r="70"/>
+<circle class="ring r2" cx="820" cy="200" r="130"/>
+<circle class="ring r3" cx="820" cy="200" r="190"/>
+<line class="edge" x1="820" y1="200" x2="700" y2="110"/>
+<line class="edge" x1="820" y1="200" x2="690" y2="300"/>
+<line class="edge" x1="820" y1="200" x2="760" y2="220"/>
+<line class="edge" x1="820" y1="200" x2="960" y2="200"/>
+<line class="edge" x1="960" y1="200" x2="960" y2="90"/>
+<line class="edge" x1="960" y1="200" x2="1000" y2="300"/>
+<line class="edge" x1="960" y1="200" x2="1100" y2="190"/>
+<line class="edge" x1="960" y1="90" x2="900" y2="60"/>
+<line class="edge" x1="960" y1="90" x2="1060" y2="70"/>
+<line class="edge" x1="1000" y1="300" x2="880" y2="340"/>
+<line class="edge" x1="1000" y1="300" x2="1120" y2="330"/>
+<line class="edge" x1="1100" y1="190" x2="1040" y2="250"/>
+<line class="edge" x1="700" y1="110" x2="900" y2="60"/>
+<line class="edge" x1="690" y1="300" x2="880" y2="340"/>
+<line class="edge" x1="760" y1="220" x2="620" y2="200"/>
+<line class="edge" x1="700" y1="110" x2="620" y2="200"/>
+<line class="edge" x1="690" y1="300" x2="620" y2="200"/>
+<line class="edge" x1="1100" y1="190" x2="1060" y2="70"/>
+<line class="edge" x1="1040" y1="250" x2="1000" y2="300"/>
+<line class="flow" x1="820" y1="200" x2="700" y2="110" style="animation-delay:-0.00s"/>
+<line class="flow" x1="820" y1="200" x2="690" y2="300" style="animation-delay:-0.37s"/>
+<line class="flow" x1="820" y1="200" x2="760" y2="220" style="animation-delay:-0.74s"/>
+<line class="flow" x1="820" y1="200" x2="960" y2="200" style="animation-delay:-1.11s"/>
+<line class="flow" x1="960" y1="200" x2="960" y2="90" style="animation-delay:-1.48s"/>
+<line class="flow" x1="960" y1="200" x2="1000" y2="300" style="animation-delay:-1.85s"/>
+<line class="flow" x1="960" y1="200" x2="1100" y2="190" style="animation-delay:-2.22s"/>
+<line class="flow" x1="960" y1="90" x2="900" y2="60" style="animation-delay:-2.59s"/>
+<line class="flow" x1="960" y1="90" x2="1060" y2="70" style="animation-delay:-2.96s"/>
+<line class="flow" x1="1000" y1="300" x2="880" y2="340" style="animation-delay:-0.13s"/>
+<line class="flow" x1="1000" y1="300" x2="1120" y2="330" style="animation-delay:-0.50s"/>
+<line class="flow" x1="1100" y1="190" x2="1040" y2="250" style="animation-delay:-0.87s"/>
+<circle cx="820" cy="200" r="16" fill="#ffffff" class="pulse" style="animation-delay:-0.00s" fill-opacity=".10"/>
+<circle cx="820" cy="200" r="9" fill="#07080a" stroke="#ffffff" stroke-opacity=".85" stroke-width="1.5"/>
+<circle cx="820" cy="200" r="5" fill="#ffffff"/>
+<circle cx="700" cy="110" r="12" fill="#ffffff" class="pulse" style="animation-delay:-0.41s" fill-opacity=".10"/>
+<circle cx="700" cy="110" r="5" fill="#07080a" stroke="#ffffff" stroke-opacity=".85" stroke-width="1.5"/>
+<circle cx="700" cy="110" r="1.5" fill="#ffffff"/>
+<circle cx="690" cy="300" r="12" fill="#ffffff" class="pulse" style="animation-delay:-0.82s" fill-opacity=".10"/>
+<circle cx="690" cy="300" r="5" fill="#07080a" stroke="#ffffff" stroke-opacity=".85" stroke-width="1.5"/>
+<circle cx="690" cy="300" r="1.5" fill="#ffffff"/>
+<circle cx="960" cy="90" r="13" fill="#ffffff" class="pulse" style="animation-delay:-1.23s" fill-opacity=".10"/>
+<circle cx="960" cy="90" r="6" fill="#07080a" stroke="#ffffff" stroke-opacity=".85" stroke-width="1.5"/>
+<circle cx="960" cy="90" r="2" fill="#ffffff"/>
+<circle cx="1000" cy="300" r="13" fill="#ffffff" class="pulse" style="animation-delay:-1.64s" fill-opacity=".10"/>
+<circle cx="1000" cy="300" r="6" fill="#07080a" stroke="#ffffff" stroke-opacity=".85" stroke-width="1.5"/>
+<circle cx="1000" cy="300" r="2" fill="#ffffff"/>
+<circle cx="1100" cy="190" r="12" fill="#ffffff" class="pulse" style="animation-delay:-2.05s" fill-opacity=".10"/>
+<circle cx="1100" cy="190" r="5" fill="#07080a" stroke="#ffffff" stroke-opacity=".85" stroke-width="1.5"/>
+<circle cx="1100" cy="190" r="1.5" fill="#ffffff"/>
+<circle cx="880" cy="340" r="11" fill="#ffffff" class="pulse" style="animation-delay:-2.46s" fill-opacity=".10"/>
+<circle cx="880" cy="340" r="4" fill="#07080a" stroke="#ffffff" stroke-opacity=".85" stroke-width="1.5"/>
+<circle cx="900" cy="60" r="11" fill="#ffffff" class="pulse" style="animation-delay:-0.07s" fill-opacity=".10"/>
+<circle cx="900" cy="60" r="4" fill="#07080a" stroke="#ffffff" stroke-opacity=".85" stroke-width="1.5"/>
+<circle cx="760" cy="220" r="11" fill="#ffffff" class="pulse" style="animation-delay:-0.48s" fill-opacity=".10"/>
+<circle cx="760" cy="220" r="4" fill="#07080a" stroke="#ffffff" stroke-opacity=".85" stroke-width="1.5"/>
+<circle cx="1060" cy="70" r="10" fill="#ffffff" class="pulse" style="animation-delay:-0.89s" fill-opacity=".10"/>
+<circle cx="1060" cy="70" r="3" fill="#07080a" stroke="#ffffff" stroke-opacity=".85" stroke-width="1.5"/>
+<circle cx="1120" cy="330" r="10" fill="#ffffff" class="pulse" style="animation-delay:-1.30s" fill-opacity=".10"/>
+<circle cx="1120" cy="330" r="3" fill="#07080a" stroke="#ffffff" stroke-opacity=".85" stroke-width="1.5"/>
+<circle cx="620" cy="200" r="10" fill="#ffffff" class="pulse" style="animation-delay:-1.71s" fill-opacity=".10"/>
+<circle cx="620" cy="200" r="3" fill="#07080a" stroke="#ffffff" stroke-opacity=".85" stroke-width="1.5"/>
+<circle cx="960" cy="200" r="12" fill="#ffffff" class="pulse" style="animation-delay:-2.12s" fill-opacity=".10"/>
+<circle cx="960" cy="200" r="5" fill="#07080a" stroke="#ffffff" stroke-opacity=".85" stroke-width="1.5"/>
+<circle cx="960" cy="200" r="1.5" fill="#ffffff"/>
+<circle cx="1040" cy="250" r="10" fill="#ffffff" class="pulse" style="animation-delay:-2.53s" fill-opacity=".10"/>
+<circle cx="1040" cy="250" r="3" fill="#07080a" stroke="#ffffff" stroke-opacity=".85" stroke-width="1.5"/>
+<rect width="1200" height="400" fill="url(#fade)"/>
+<text x="74" y="104" style="font:500 15px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;letter-spacing:.18em" fill="#8b8f98">~/SEIERK</text>
+<text x="68" y="196" style="font:700 96px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;letter-spacing:-.04em" fill="#ffffff">Seierk</text>
+<text x="74" y="244" style="font:400 24px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" fill="#c7cad1">Open source developer building AI utility projects.</text>
+<g clip-path="url(#type)"><text x="74" y="292" style="font:500 17px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" fill="#8b8f98">&gt; agents  /  protocols  /  on-chain payments</text></g>
+<rect class="cur" x="74" y="300" width="10" height="2" fill="#ffffff"><animate attributeName="x" values="74;588;588;74" keyTimes="0;.45;.9;1" dur="9s" repeatCount="indefinite"/></rect>
+<rect x=".5" y=".5" width="1199" height="399" rx="18" fill="none" stroke="#ffffff" stroke-opacity=".10"/>
+</g></svg>
