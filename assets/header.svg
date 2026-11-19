@@ -4,7 +4,7 @@
 <radialGradient id="glow" cx="820" cy="200" r="260" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity=".10"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
 <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity=".07"/></pattern>
 <clipPath id="card"><rect width="1200" height="400" rx="18"/></clipPath>
-<clipPath id="type"><rect x="72" y="266" width="0" height="40"><animate attributeName="width" values="0;520;520;0" keyTimes="0;.45;.9;1" dur="9s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="type"><rect x="70" y="266" width="540" height="42"/></clipPath>
 <style>
 .code{font:13px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#ffffff;fill-opacity:.05}
 .edge{stroke:#ffffff;stroke-opacity:.16;stroke-width:1}
@@ -18,6 +18,8 @@
 .pulse{animation:pulse 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes pulse{0%,100%{opacity:.25;transform:scale(1)}50%{opacity:.9;transform:scale(1.6)}}
 .cur{animation:blink 1s steps(1) infinite}
+.typer{transform:translateX(516px);animation:type 9s steps(38) infinite}
+@keyframes type{0%{transform:translateX(0)}45%,90%{transform:translateX(516px)}100%{transform:translateX(0)}}
 @keyframes blink{50%{opacity:0}}
 </style></defs>
 <g clip-path="url(#card)"><rect width="1200" height="400" fill="#07080a"/><rect width="1200" height="400" fill="url(#dots)"/>
@@ -103,7 +105,7 @@
 <text x="74" y="104" style="font:500 15px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;letter-spacing:.18em" fill="#8b8f98">~/SEIERK</text>
 <text x="68" y="196" style="font:700 96px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;letter-spacing:-.04em" fill="#ffffff">Seierk</text>
 <text x="74" y="244" style="font:400 24px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" fill="#c7cad1">Open source developer building AI utility projects.</text>
-<g clip-path="url(#type)"><text x="74" y="292" style="font:500 17px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" fill="#8b8f98">&gt; agents  /  protocols  /  on-chain payments</text></g>
-<rect class="cur" x="74" y="300" width="10" height="2" fill="#ffffff"><animate attributeName="x" values="74;588;588;74" keyTimes="0;.45;.9;1" dur="9s" repeatCount="indefinite"/></rect>
+<text x="74" y="292" style="font:500 17px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" fill="#8b8f98">&gt; agents  /  protocols  /  on-chain payments</text>
+<g clip-path="url(#type)"><g class="typer"><rect x="72" y="268" width="560" height="38" fill="#07080a"/><rect class="cur" x="74" y="298" width="10" height="2" fill="#ffffff"/></g></g>
 <rect x=".5" y=".5" width="1199" height="399" rx="18" fill="none" stroke="#ffffff" stroke-opacity=".10"/>
 </g></svg>
