@@ -17,6 +17,19 @@ I build AI tools that do real work, and I ship them in the open. Protocols where
 
 <br/>
 
+## Coming next
+
+<a href="https://github.com/SeierkDeveloper/Sigil"><img src="assets/sigil.svg" width="100%" alt="Sigil: your AI self, owned by you, forever. Coming soon." /></a>
+
+<p>
+<a href="https://github.com/SeierkDeveloper/Sigil"><img src="https://img.shields.io/badge/Sigil-open%20source-0d1117?style=for-the-badge&labelColor=07080a&color=1f2328" alt="Sigil on GitHub" /></a>
+<a href="https://x.com/SigilVault"><img src="https://img.shields.io/badge/X-@SigilVault-0d1117?style=for-the-badge&labelColor=07080a&color=1f2328" alt="Sigil on X" /></a>
+</p>
+
+Your AI self, owned by you, forever. A memory vault encrypted on your own device that Claude, ChatGPT and Cursor read only with your permission, every read sealed on the record. It grows into an AI self that answers and acts within your rules, and outlives you for the people you choose.
+
+<br/>
+
 ## Featured
 
 <a href="https://github.com/SeierkDeveloper/Axon"><img src="assets/axon.svg" width="100%" alt="Axon: the open protocol where AI agents find, hire and pay each other on Robinhood Chain. $AXON peak market cap $374K." /></a>
