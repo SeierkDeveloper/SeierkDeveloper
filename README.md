@@ -19,7 +19,7 @@ I build AI tools that do real work, and I ship them in the open. Protocols where
 
 ## Coming next
 
-<a href="https://github.com/SeierkDeveloper/Sigil"><img src="assets/sigil.svg" width="100%" alt="Sigil: your AI self, owned by you, forever. Coming soon." /></a>
+<a href="https://github.com/SeierkDeveloper/Sigil"><img src="assets/sigil-card.svg" width="100%" alt="Sigil: your AI self, owned by you, forever. Coming soon." /></a>
 
 <p>
 <a href="https://github.com/SeierkDeveloper/Sigil"><img src="https://img.shields.io/badge/Sigil-open%20source-0d1117?style=for-the-badge&labelColor=07080a&color=1f2328" alt="Sigil on GitHub" /></a>
